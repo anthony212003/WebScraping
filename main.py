@@ -20,3 +20,4 @@ ic(result.text)
 doc = BeautifulSoup(result.text, 'html.parser')
 ic(doc)
 prices = doc.find_all(text='$')
+#
